@@ -1,7 +1,7 @@
 module ApplicationHelper
 
   def logo
-   logo = image_tag("logo.png", alt: "Mini Twitter", class: "round")
+    image_tag("logo.png", alt: "Mini Twitter", class: "round")
   end
 
   def full_title(page_title)
