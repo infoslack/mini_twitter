@@ -49,6 +49,11 @@ describe "Authentication" do
     describe "for non-signed-in users" do
       let(:user) { Factory(:user) }
 
+      describe "visititing user index" do
+        before { visit users_path }
+        it { should have_selector('title', text: 'Sign in') }
+      end
+
       describe "in the users controller" do
 
         describe "visiting the edit page" do
