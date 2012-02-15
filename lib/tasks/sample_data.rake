@@ -41,9 +41,3 @@ def make_relationships
   followed_users.each { |followed| user.follow!(followed) }
   followers.each      { |follower| follower.follow!(user) }
 end
-
-#  User.create!(name: "Demo User",
-#                email: "demo@domain.com",
-#                password: "teste123",
-#                password_confirmation: "teste123")
-
