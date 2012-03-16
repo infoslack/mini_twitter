@@ -1,6 +1,6 @@
 #Mini Twitter
 
-###Example of the application developed on Rails Tutorial
+###Example of the application developed on [Rails Tutorial](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book)
 
 In this demo app was used:
 
